@@ -1,0 +1,58 @@
+body{
+    background-image: url('../images/—Pngtree—abstract\ playful\ portfolio\ pink\ memphis_1347357.png');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-repeat:repeat-y;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+.welcome {
+    color: #eba99d;
+    /* //background-color: #d0715c1d; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2%;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom:5%;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0 ,0.75);
+    height: 550px;
+    width: 750px;
+    border-radius:10px;
+}
+
+.welcome:hover {
+    transform: scale(1.07);
+}
+
+.welcome-text {
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.welcome-img > img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 10%;
+}
+
+.welcome-text > h1 {
+    color: white;
+    font-weight: bold;
+}
+
+
+.welcome-text > button {
+    background-color: white;
+    color:#eba99d;
+    border: 2px solid #eba99d;
+    font-weight: bold;
+}
+
+.welcome-text > button:hover {
+    background-color: #eba99d;
+    color: white;
+}

@@ -1,0 +1,51 @@
+.about {
+    padding: 2%;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom:5%;
+    color: #eba99d;
+    width: 100%;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0 ,0.75);
+    transition: transform 100ms ease-in;
+    height: 550px;
+    width: 750px;
+    border-radius:10px;
+}
+
+.about:hover{
+    transform: scale(1.07)
+}
+
+.about > h1 {
+    font-size: 2.5em;
+    color: white;
+    width: 35%;
+    border-bottom: white solid;
+}
+
+.about > p {
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, 0.502);
+}
+
+.about > button > a {
+    color: #eba99d;
+    text-decoration: none;
+}
+
+.about > button > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.about > button {
+    background-color: white;
+    color:#eba99d;
+    border: 2px solid #eba99d;
+    font-weight: bold;
+}
+
+.about > button:hover {
+    background-color: #eba99d;
+    color: white;
+}

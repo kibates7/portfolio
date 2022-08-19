@@ -1,0 +1,14 @@
+.projects_main > h1{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 40%;
+    border-bottom: 1px solid;
+    width: 20%;
+}
+
+.projects {
+    display: flex;
+    padding-bottom: 30px;
+}
